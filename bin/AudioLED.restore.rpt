@@ -1,0 +1,183 @@
+Restore Archived Project report for AudioLED
+Tue May  4 15:47:09 2021
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Tue May  4 15:47:09 2021 ;
+; Revision Name                   ; AudioLED                              ;
+; Top-level Entity Name           ; AudioLED                              ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored '/home/karolszustakowski/intelFPGA_lite/20.1/quartus/bin/AudioLED_tmp_archive.qar' into the '/home/karolszustakowski/Dokumenty/AudioLED' directory
+Info: Generated report 'AudioLED.restore.rpt'
+
+
++---------------------------------------------------------------------------------------+
+; Files Restored                                                                        ;
++---------------------------------------------------------------------------------------+
+; File Name                                                                             ;
++---------------------------------------------------------------------------------------+
+; qar_info.json                                                                         ;
+; bin/AudioClock/synthesis/AudioClock.debuginfo                                         ;
+; bin/AudioClock/synthesis/AudioClock.qip                                               ;
+; bin/AudioClock/synthesis/AudioClock.vhd                                               ;
+; bin/AudioClock/synthesis/submodules/AudioClock_audio_pll_0.v                          ;
+; bin/AudioClock/synthesis/submodules/AudioClock_audio_pll_0_audio_pll.qip              ;
+; bin/AudioClock/synthesis/submodules/AudioClock_audio_pll_0_audio_pll.v                ;
+; bin/AudioClock/synthesis/submodules/altera_up_avalon_reset_from_locked_signal.v       ;
+; bin/AudioConfig/synthesis/AudioConfig.debuginfo                                       ;
+; bin/AudioConfig/synthesis/AudioConfig.qip                                             ;
+; bin/AudioConfig/synthesis/AudioConfig.vhd                                             ;
+; bin/AudioConfig/synthesis/submodules/AudioConfig_audio_and_video_config_0.v           ;
+; bin/AudioConfig/synthesis/submodules/altera_up_av_config_auto_init.v                  ;
+; bin/AudioConfig/synthesis/submodules/altera_up_av_config_auto_init_d5m.v              ;
+; bin/AudioConfig/synthesis/submodules/altera_up_av_config_auto_init_dc2.v              ;
+; bin/AudioConfig/synthesis/submodules/altera_up_av_config_auto_init_lcm.v              ;
+; bin/AudioConfig/synthesis/submodules/altera_up_av_config_auto_init_ltm.v              ;
+; bin/AudioConfig/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7180.v       ;
+; bin/AudioConfig/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7181.v       ;
+; bin/AudioConfig/synthesis/submodules/altera_up_av_config_auto_init_ob_audio.v         ;
+; bin/AudioConfig/synthesis/submodules/altera_up_av_config_auto_init_ob_de10_standard.v ;
+; bin/AudioConfig/synthesis/submodules/altera_up_av_config_auto_init_ob_de1_soc.v       ;
+; bin/AudioConfig/synthesis/submodules/altera_up_av_config_auto_init_ob_de2_115.v       ;
+; bin/AudioConfig/synthesis/submodules/altera_up_av_config_auto_init_ob_de2i_150.v      ;
+; bin/AudioConfig/synthesis/submodules/altera_up_av_config_serial_bus_controller.v      ;
+; bin/AudioConfig/synthesis/submodules/altera_up_slow_clock_generator.v                 ;
+; bin/AudioInput/synthesis/AudioInput.debuginfo                                         ;
+; bin/AudioInput/synthesis/AudioInput.qip                                               ;
+; bin/AudioInput/synthesis/AudioInput.vhd                                               ;
+; bin/AudioInput/synthesis/submodules/AudioInput_audio_0.v                              ;
+; bin/AudioInput/synthesis/submodules/altera_up_audio_bit_counter.v                     ;
+; bin/AudioInput/synthesis/submodules/altera_up_audio_in_deserializer.v                 ;
+; bin/AudioInput/synthesis/submodules/altera_up_audio_out_serializer.v                  ;
+; bin/AudioInput/synthesis/submodules/altera_up_clock_edge.v                            ;
+; bin/AudioInput/synthesis/submodules/altera_up_sync_fifo.v                             ;
+; bin/AudioLED.bdf                                                                      ;
+; bin/AudioLED.qpf                                                                      ;
+; bin/AudioLED.qsf                                                                      ;
+; bin/DataSerializer.vhd                                                                ;
+; bin/HarmonicDetector.vhd                                                              ;
+; bin/LEDDebugger.vhd                                                                   ;
+; bin/LedDriver.vhd                                                                     ;
+; bin/SOPCounter.vhd                                                                    ;
+; bin/Scaler.vhd                                                                        ;
+; bin/SignalLen.vhd                                                                     ;
+; bin/SignalMerger.vhd                                                                  ;
+; bin/SignalParser.vhd                                                                  ;
+; bin/db/audioTap_auto_stripped.stp                                                     ;
+; bin/fft_controller.vhd                                                                ;
+; bin/fft_led/synthesis/fft_led.debuginfo                                               ;
+; bin/fft_led/synthesis/fft_led.qip                                                     ;
+; bin/fft_led/synthesis/fft_led.vhd                                                     ;
+; bin/fft_led/synthesis/submodules/altera_fft_dual_port_ram.vhd                         ;
+; bin/fft_led/synthesis/submodules/altera_fft_dual_port_rom.vhd                         ;
+; bin/fft_led/synthesis/submodules/altera_fft_mult_add.vhd                              ;
+; bin/fft_led/synthesis/submodules/altera_fft_single_port_rom.vhd                       ;
+; bin/fft_led/synthesis/submodules/apn_fft_mult_can.vhd                                 ;
+; bin/fft_led/synthesis/submodules/apn_fft_mult_cpx.vhd                                 ;
+; bin/fft_led/synthesis/submodules/apn_fft_mult_cpx_1825.v                              ;
+; bin/fft_led/synthesis/submodules/auk_dspip_avalon_streaming_block_sink.vhd            ;
+; bin/fft_led/synthesis/submodules/auk_dspip_avalon_streaming_block_source.vhd          ;
+; bin/fft_led/synthesis/submodules/auk_dspip_bit_reverse_addr_control.vhd               ;
+; bin/fft_led/synthesis/submodules/auk_dspip_bit_reverse_core.vhd                       ;
+; bin/fft_led/synthesis/submodules/auk_dspip_bit_reverse_reverse_carry_adder.vhd        ;
+; bin/fft_led/synthesis/submodules/auk_dspip_lib_pkg.vhd                                ;
+; bin/fft_led/synthesis/submodules/auk_dspip_math_pkg.vhd                               ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_adder_fp.vhd                        ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_addsub.vhd                          ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_bf_control.vhd                      ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_bfi.vhd                             ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_bfii.vhd                            ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_cma.vhd                             ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_cma_adder_fp.vhd                    ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_cma_bfi_fp.vhd                      ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_cma_fp.vhd                          ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_core.vhd                            ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_counter.vhd                         ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_delay.vhd                           ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_enable_control.vhd                  ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_lib_pkg.vhd                         ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_stage.vhd                           ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_stg_out_pipe.vhd                    ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_stg_pipe.vhd                        ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_top.ocp                             ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_top.vhd                             ;
+; bin/fft_led/synthesis/submodules/auk_dspip_r22sdf_twrom.vhd                           ;
+; bin/fft_led/synthesis/submodules/auk_dspip_roundsat.vhd                               ;
+; bin/fft_led/synthesis/submodules/auk_dspip_text_pkg.vhd                               ;
+; bin/fft_led/synthesis/submodules/auk_fft_pkg.vhd                                      ;
+; bin/fft_led/synthesis/submodules/counter_module.sv                                    ;
+; bin/fft_led/synthesis/submodules/fft_led_fft_ii_0.sv                                  ;
+; bin/fft_led/synthesis/submodules/fft_led_fft_ii_0_opt_twi1.hex                        ;
+; bin/fft_led/synthesis/submodules/fft_led_fft_ii_0_opt_twi2.hex                        ;
+; bin/fft_led/synthesis/submodules/fft_led_fft_ii_0_opt_twi3.hex                        ;
+; bin/fft_led/synthesis/submodules/fft_led_fft_ii_0_opt_twi4.hex                        ;
+; bin/fft_led/synthesis/submodules/fft_led_fft_ii_0_opt_twi5.hex                        ;
+; bin/fft_led/synthesis/submodules/fft_led_fft_ii_0_opt_twr1.hex                        ;
+; bin/fft_led/synthesis/submodules/fft_led_fft_ii_0_opt_twr2.hex                        ;
+; bin/fft_led/synthesis/submodules/fft_led_fft_ii_0_opt_twr3.hex                        ;
+; bin/fft_led/synthesis/submodules/fft_led_fft_ii_0_opt_twr4.hex                        ;
+; bin/fft_led/synthesis/submodules/fft_led_fft_ii_0_opt_twr5.hex                        ;
+; bin/fft_led/synthesis/submodules/hyper_opt_OFF_pkg.vhd                                ;
+; bin/fft_led/synthesis/submodules/hyper_pipeline_interface.v                           ;
+; bin/fft_wrapper.vhd                                                                   ;
+; bin/freqDiv.vhd                                                                       ;
+; bin/output_files/audioTap.stp                                                         ;
+; bin/sqrt.cmp                                                                          ;
+; bin/sqrt.qip                                                                          ;
+; bin/sqrt.vhd                                                                          ;
+; bin/assignment_defaults.qdf                                                           ;
+; linux64/modelsim_q.tcl                                                                ;
+; linux64/prj_asd_import.tcl                                                            ;
+; linux64/remote_cmp.tcl                                                                ;
+; linux64/tcl_client.tcl                                                                ;
+; linux64/tcl_server.tcl                                                                ;
++---------------------------------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+
